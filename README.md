@@ -1,5 +1,5 @@
 
-# AWS KMS Terraform Module
+# AWS elasticache Terraform Module
 
 Modules in Terraform are self-contained packages of Terraform configurations that are managed as a group. Modules are used to create reusable components in Terraform as well as for basic code organization. Please review the Terraform documentation to become familiar with Modules: https://www.terraform.io/docs/modules/usage.html
 
