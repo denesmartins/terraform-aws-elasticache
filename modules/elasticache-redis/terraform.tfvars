@@ -9,4 +9,3 @@ cidr_blocks                   = ["10.0.0.0/16"]
 engine_version                = "5.0.6"
 maintenance_window            = "sun:05:00-sun:09:00"
 environment                   = "DEV"
-node_type                     = "cache.t1.micro"

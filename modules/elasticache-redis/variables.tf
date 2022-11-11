@@ -75,3 +75,8 @@ variable "cluster_mode_enabled" {
   type    = bool
   default = true
 }
+
+variable "automatic_failover_enabled" {
+  default = true
+  type    = bool
+}

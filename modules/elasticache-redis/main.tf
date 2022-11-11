@@ -6,6 +6,7 @@ resource "aws_elasticache_replication_group" "redis" {
   node_type                     = var.node_type
   port                          = var.port
   parameter_group_name          = var.parameter_group_name
+  automatic_failover_enabled    = var.automatic_failover_enabled
   subnet_group_name             = aws_elasticache_subnet_group.redis_subnet_group.name
   snapshot_retention_limit      = var.snapshot_retention_limit
   engine_version                = var.engine_version
